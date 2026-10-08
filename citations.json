@@ -1,1 +1,25 @@
-{"updated": null, "total": null, "h_index": null, "papers": {}}
+{
+ "h_index": 8,
+ "papers": {
+  "amithebigfishtheeffectofordinalrankonstudentacademicperformanceinmiddleschool": 46,
+  "awelfareanalysisofmedicaidandcrime": 3,
+  "awelfareanalysisofmedicaidandrecidivism": 11,
+  "cansuperstitioncreateaselffulfillingprophecyschooloutcomesofdragonchildreninchina": 62,
+  "essaysontheimpactofparentsinvestmentandschoolcurriculumoneducationaloutcomesinchina": 0,
+  "fallingbehindaspeersageuptheeffectsofpeerageonstudentcognitiveandnoncognitiveoutcomes": 2,
+  "fallingbehindaspeersageuptheeffectsofpeerageonstudentcognitiveandnoncognitiveoutcomesedworkingpaperno241052": 3,
+  "greaterautonomybetteraccessthecausaleffectofphysicianassociatescopeofpracticeexpansionsonhealthcareaccessandcostbarriers": 0,
+  "harmonizingtheyinandyanggenderdisparitiesinsubjectivewellbeingafterretirementinchina": 3,
+  "incomecomparisonandsubjectivewellbeingevidencefromselfperceivedrelativeincomedatafromchina": 7,
+  "incomeinequalityandfinancialreforminasiatheroleofhumancapital": 110,
+  "labordemandshocksandearningsandemploymentdifferentialsevidencefromtheusshaleoilgasboom": 29,
+  "longruneffectsofchildhoodexposuretomedicalmarijuanalawsoneducationandlabormarketoutcomes": 1,
+  "superstitionandselffulfillingprophecythecaseofdragonchildreninchina": 0,
+  "theeffectofpublichealthinsuranceoncriminalrecidivism": 70,
+  "theimpactofhighschoolcurriculumonconfidenceacademicsuccessandmentalandphysicalwellbeingofuniversitystudents": 37,
+  "theimpactofhighschoolcurriculumreformonuniversitystudentoutcomesinchina": 0,
+  "theimpactofselfperceivedrelativeincomeonlifesatisfactionevidencefrombritishpaneldata": 27
+ },
+ "total": 411,
+ "updated": "2026-10-08"
+}
