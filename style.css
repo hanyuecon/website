@@ -1,13 +1,21 @@
 
+@font-face{font-family:Vollkorn;src:url(assets/fonts/vollkorn-latin-400-normal.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Vollkorn;src:url(assets/fonts/vollkorn-latin-400-italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:Vollkorn;src:url(assets/fonts/vollkorn-latin-600-normal.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:Vollkorn;src:url(assets/fonts/vollkorn-latin-600-italic.woff2) format('woff2');font-weight:600;font-style:italic;font-display:swap}
+@font-face{font-family:Newsreader;src:url(assets/fonts/newsreader-latin-400-normal.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:Newsreader;src:url(assets/fonts/newsreader-latin-400-italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
+@font-face{font-family:Newsreader;src:url(assets/fonts/newsreader-latin-600-normal.woff2) format('woff2');font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:Newsreader;src:url(assets/fonts/newsreader-latin-600-italic.woff2) format('woff2');font-weight:600;font-style:italic;font-display:swap}
 /* Layout: fixed identity column on the left, one long reading column on the right; stacks on phones. No external fonts or scripts. */
 :root{--bg:#fafbfb;--panel:#f0f3f3;--ink:#17222b;--muted:#5b6872;--line:#d9dfe1;--accent:#0e5a63;--ctr:#565a8f;
---serif:"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Songti SC",serif;
---sans:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif}
+--serif:Vollkorn,"Iowan Old Style","Palatino Linotype",Palatino,"Book Antiqua",Georgia,"Songti SC",serif;
+--sans:Newsreader,Georgia,"Songti SC",system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","PingFang SC","Microsoft YaHei",sans-serif}
 @media (prefers-color-scheme:dark){:root{--bg:#11181d;--panel:#182228;--ink:#e6ecee;--muted:#9aa8b0;--line:#2a373e;--accent:#7cc7cf;--ctr:#a9acd6;color-scheme:dark}}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
 @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 var(--sans)}
+body{margin:0;background:var(--bg);color:var(--ink);font:17.5px/1.6 var(--sans)}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
 a:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}
@@ -38,8 +46,8 @@ ul{list-style:none;margin:0;padding:0}
 .rows li{padding:2px 0;font-size:.97rem}
 .rows .d,.media .d{color:var(--muted);font-size:.86rem;font-variant-numeric:tabular-nums;white-space:nowrap}
 .media li{display:grid;grid-template-columns:150px minmax(0,1fr) auto;gap:14px;padding:9px 0;border-bottom:1px solid var(--line);align-items:baseline}
-.media .o{font-weight:600;font-size:.9rem}
-.media .t{color:var(--ink);font-size:.95rem}
+.media .o{font-weight:600;font-size:.86rem;color:var(--muted)}
+.media .t{color:var(--ink);font:1.04rem/1.45 var(--serif)}
 .media .t:hover{color:var(--accent)}
 .btn{display:inline-block;border:1px solid var(--accent);padding:8px 16px;border-radius:3px;font-size:.93rem}
 .btn:hover{background:var(--accent);color:var(--bg);text-decoration:none}
@@ -51,9 +59,9 @@ ul{list-style:none;margin:0;padding:0}
 .cvl li{display:grid;grid-template-columns:120px minmax(0,1fr);gap:16px;padding:4px 0;font-size:.96rem;align-items:baseline}
 .cvl .d{color:var(--muted);font-size:.86rem;font-variant-numeric:tabular-nums}
 .bio{font-size:1.06rem;line-height:1.75}
-.ctr{color:var(--ctr)}
-.grp{font:italic 600 1.05rem/1.4 var(--serif);text-align:left;margin:26px 0 6px}
-h2+.grp{margin-top:4px}
+.ctr{color:var(--ctr);display:block}
+.grp{font:italic 600 1.22rem/1.35 var(--serif);text-align:left;hyphens:manual;color:var(--ink);margin:52px 0 2px;padding:14px 16px;background:var(--panel);border-radius:3px}
+h2+.grp{margin-top:6px}
 .btnrow{display:flex;flex-wrap:wrap;gap:12px;text-align:left}
 .btnrow .btn{font-weight:600}
 #research h3{font-size:1.3rem;letter-spacing:.06em;color:var(--ink);margin:36px 0 16px}
