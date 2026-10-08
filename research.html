@@ -71,7 +71,7 @@ if(n>0){rows.push([li,n]);if(n>max)max=n}
 rows.forEach(function(r){
 var s=document.createElement("div");s.className="cite";s.title=r[1]+" citations on Google Scholar";
 var bar=document.createElement("i");bar.style.width=(r[1]/max*55)+"%";
-var num=document.createElement("b");num.textContent=r[1];
+var num=document.createElement("b");num.textContent="Cited by "+r[1];
 s.appendChild(bar);s.appendChild(num);r[0].appendChild(s);
 });
 if(d.total){var el=document.getElementById("metrics");
