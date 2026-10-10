@@ -66,6 +66,7 @@ h2+.grp{margin-top:6px}
 .btnrow .btn{font-weight:600}
 #research h3{font-size:1.2rem;letter-spacing:.06em;color:var(--ink);margin:48px 0 18px;padding:12px 16px;background:var(--panel);border-radius:3px}
 #research h2+h3,#research .metrics+h3{margin-top:6px}
+.papers .m i{font-weight:600}
 .small{color:var(--muted);font-size:.92rem}
 footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padding-top:18px}
 @media (max-width:820px){
